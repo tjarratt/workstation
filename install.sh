@@ -22,3 +22,10 @@ grep -qxF '. /usr/local/opt/asdf/libexec/asdf.sh' ~/.zshrc || echo '. /usr/local
 ln -sf ~/workspace/workstation/init.lua ~/.config/nvim/init.lua
 git config --global --add url."git@github.com:".insteadOf "https://github.com/"
 nvim -es ./update-plugins.txt
+
+cp dotfiles/.vimrc $HOME/.vimrc
+cp dotfiles/.zshrc $HOME/.zshrc
+cp dotfiles/.iex.exs $HOME/.iex.exs
+cp dotfiles/.git-authors $HOME/.git-authors
+cp dotfiles/.gitconfig $HOME/.gitconfig
+
