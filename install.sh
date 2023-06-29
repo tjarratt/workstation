@@ -5,16 +5,16 @@ brew bundle --force cleanup
 brew update
 
 asdf plugin add ruby
-asdf install ruby 2.7.1
-asdf global ruby 2.7.1
+asdf install ruby 3.2.2
+asdf global ruby 3.2.2
 
 asdf plugin add erlang
 asdf plugin add elixir
 
-asdf install erlang 25.2.3
-asdf global erlang 25.2.3
-asdf install elixir 1.14.3-otp-25
-asdf global elixir 1.14.3-otp-25
+asdf install erlang 26.0.2
+asdf global erlang 26.0.2
+asdf install elixir 1.15.0-otp-26
+asdf global elixir 1.15.0-otp-26
 
 sed -i '' 's/plugins=.*/plugins=(git z)/' ~/.zshrc
 grep -qxF '. /usr/local/opt/asdf/libexec/asdf.sh' ~/.zshrc || echo '. /usr/local/opt/asdf/libexec/asdf.sh' >> ~/.zshrc
