@@ -23,11 +23,12 @@ brew "flycut"
 brew "direnv"
 brew "fswatch"
 brew "jq"
-brew "the_silver_searcher"
+brew "pt" # new and improved ag
 brew "tldr"
 brew "tree"
 brew "watch"
 brew "z"
+brew "entr"
 
 # Need a Postgres for most app dev work
 brew "postgresql", restart_service: true
