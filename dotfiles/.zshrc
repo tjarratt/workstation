@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-. /usr/local/etc/profile.d/z.sh
+/opt/homebrew/etc/profile.d/z.sh
 
 # rbenv ahoy hoy
 eval "$(rbenv init -)"
@@ -109,5 +109,4 @@ eval "$(rbenv init -)"
 eval "$(direnv hook zsh)"
 
 # asdf setup
-. /usr/local/opt/asdf/libexec/asdf.sh
-
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
