@@ -1,11 +1,9 @@
 [core]
-	editor = /usr/local/bin/vim
+	editor = vim
         # disabled vv below to setup badoom commit hooks vv
 	# hooksPath = /Users/tim.jarratt/workspace/git-hooks-core
 [transfer]
 	fsckobjects = true
-[init]
-	templateDir = /Users/tim.jarratt/.git_templates
 [alias]
 	gst = git
 	st = status
@@ -27,12 +25,6 @@
 	amendit = commit --amend --no-edit
 	unstage = reset HEAD
 	rum = rebase master@{u}
-	gst = git
-	gst = git
-	gst = git
-	gst = git
-	gst = git
-	gst = git
 	gst = git
 [user]
 	email = tjarratt@gmail.com
