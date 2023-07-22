@@ -100,10 +100,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# source z, it's the new j, yo
 /opt/homebrew/etc/profile.d/z.sh
-
-# rbenv ahoy hoy
-eval "$(rbenv init -)"
 
 # direnv ahoy hoy love them .envrc's
 eval "$(direnv hook zsh)"
