@@ -15,13 +15,17 @@ plugins = {
   { "elixir-editors/vim-elixir" },
   { 'overcache/NeoSolarized' },
 --- make things a bit Luan's vim-ier
-  { 'ctrlpvim/ctrlp.vim' }
+  { 'ctrlpvim/ctrlp.vim' },
+--- mucking about with fzf
+  { 'junegunn/fzf' },
+  { 'junegunn/fzf.vim' },
 }
 
 require("lazy").setup(plugins)
 
 --- set line numbers for pairing
 vim.opt.number = true
+vim.wo.number = true
 
 --- enable syntax highlighting
 vim.opt.syntax = "on"

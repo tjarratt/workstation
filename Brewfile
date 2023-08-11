@@ -20,6 +20,7 @@ brew "tig"
 cask "flycut"
 
 # good tools to have on the command line
+brew "bat"
 brew "direnv"
 brew "fswatch"
 brew "jq"
@@ -30,6 +31,7 @@ brew "watch"
 brew "z"
 brew "entr"
 brew "git-duet"
+brew "fzf"
 
 # Need a Postgres for most app dev work
 brew "postgresql", restart_service: true
