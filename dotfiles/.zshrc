@@ -98,7 +98,7 @@ alias vim=nvim
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # source z, it's the new j, yo
-/opt/homebrew/etc/profile.d/z.sh
+. /opt/homebrew/etc/profile.d/z.sh
 
 # direnv ahoy hoy love them .envrc's
 eval "$(direnv hook zsh)"
